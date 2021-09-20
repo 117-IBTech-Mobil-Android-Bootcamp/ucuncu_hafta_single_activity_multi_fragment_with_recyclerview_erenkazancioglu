@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/battle_Fragment"
+        android:icon="@drawable/ic_battlepassive"
+        android:title="Battle" />
+    <item
+        android:id="@+id/my_Decks_Fragment"
+        android:icon="@drawable/ic_deckpassive"
+        android:title="Decklerim" />
+    <item
+        android:id="@+id/profile_Fragment"
+        android:icon="@drawable/ic_profilepassive"
+        android:title="Profile" />
+</menu>

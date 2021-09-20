@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/battle_icon_selector.xml" value="0.1707236842105263" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/deck_icon_selector.xml" value="0.1707236842105263" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/empty_rounded_shape_no_stroke.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/empty_rounded_shape_with_black_stroke.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_avatar_change_point.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_point.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_point_big_green.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_premium_point.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_profile_battleactive.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_profileactive.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_splash_logo.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/ic_success_point.xml" value="0.24027777777777778" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/orange_rounded_shape.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/profile_icon_selector.xml" value="0.1707236842105263" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/profile_stroke_rounded_shape.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/drawable/rounded_profile_stroke.xml" value="0.202734375" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/layout/activity_main.xml" value="0.136" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/layout/fragment_avatar__selection.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/layout/fragment_avatar_selection.xml" value="0.15163934426229508" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/layout/fragment_battle.xml" value="0.22592592592592592" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/layout/fragment_profile.xml" value="0.176" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/layout/row_avatar_selection.xml" value="0.264" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/layout/row_avatar_selection_text.xml" value="0.16052631578947368" />
+        <entry key="..\:/Users/90506/AndroidStudioProjects/patikadevweek3/app/src/main/res/menu/bottom_menu.xml" value="0.16052631578947368" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

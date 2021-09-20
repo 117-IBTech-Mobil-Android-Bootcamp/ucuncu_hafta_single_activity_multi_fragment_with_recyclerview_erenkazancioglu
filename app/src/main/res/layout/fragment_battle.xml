@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context=".ui.Battle_Fragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_weight="1"
+            android:background="@drawable/ic_multiplayerbg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guide_top"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="100dp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_height="60dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="30dp"
+            app:layout_constraintBottom_toBottomOf="@id/guide_top"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            style="@style/EmptyRoundedShapeNoStroke">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview_point"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:src="@drawable/ic_point">
+        </androidx.appcompat.widget.AppCompatImageView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:text="700"
+            android:textSize="18dp"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/textview_point_title"
+            app:layout_constraintStart_toEndOf="@id/imageview_point"></androidx.appcompat.widget.AppCompatTextView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_point_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:orientation="vertical"
+            android:text="Puan"
+            android:textSize="14dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/textview_point"
+            app:layout_constraintStart_toEndOf="@id/imageview_point"></androidx.appcompat.widget.AppCompatTextView>
+
+       <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imageview_level"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+           android:layout_marginEnd="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/textview_level"
+            app:layout_constraintTop_toTopOf="parent"
+            android:src="@drawable/ic_level">
+        </androidx.appcompat.widget.AppCompatImageView>
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_level"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:orientation="vertical"
+            android:text="Level 15"
+            android:textSize="18dp"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:layout_constraintBottom_toTopOf="@id/mini_progress_bar_horizontal"/>
+        <ProgressBar
+            android:id="@+id/mini_progress_bar_horizontal"
+            android:layout_width="70dp"
+            android:layout_height="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:progress="45"
+            android:max="100"
+            style="@style/MiniLevelProgressBarHorizontal"
+            android:layout_marginBottom="20dp">
+        </ProgressBar>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_multi_player"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/title_text_color"
+            android:text="İki Oyuncu"
+            android:textStyle="bold"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toTopOf="@id/button_multi_player_start_now"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_multi_player_start_now"
+            style="@style/OrangeRoundedShape"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:textSize="18dp"
+            android:drawableRight="@drawable/ic_rightarrow"
+            android:text="Şimdi Oyna"
+            android:textAlignment="center" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FDDCDC"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_weight="1"
+            android:background="@drawable/ic_oneplayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <androidx.constraintlayout.widget.Guideline
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:orientation="horizontal"
+            android:id="@+id/guide_bottom"
+            app:layout_constraintGuide_end="140dp"
+            app:layout_constraintStart_toStartOf="parent" />
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textview_single_player"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:textColor="@color/default_text_color"
+            android:text="Tek Oyuncu"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toTopOf="@id/button_single_player_start_now"
+            app:layout_constraintEnd_toEndOf="parent"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_single_player_start_now"
+            style="@style/EmptyRoundedShape"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="20dp"
+            app:layout_constraintBottom_toBottomOf="@id/guide_bottom"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            android:textSize="18dp"
+            android:drawableRight="@drawable/ic_rightblackarrow"
+            android:text="Şimdi Oyna"
+            android:textAlignment="center" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

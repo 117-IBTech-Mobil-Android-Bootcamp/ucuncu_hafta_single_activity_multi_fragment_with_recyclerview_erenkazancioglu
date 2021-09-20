@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="EmptyRoundedShape" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@drawable/empty_rounded_shape_with_black_stroke</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="EmptyRoundedShapeNoStroke" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/empty_rounded_shape_no_stroke</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="OrangeRoundedShape" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/orange_rounded_shape</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <style name="MiniLevelProgressBarHorizontal" parent ="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminate">false</item>
+        <item name="android:progressDrawable">@drawable/battle_screen_level_horizontal_progressbar</item>
+    </style>
+
+    <style name="ProfileStrokeStyle" parent="">
+        <item name="android:background">@drawable/profile_stroke_rounded_shape</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+
+
+</resources>
